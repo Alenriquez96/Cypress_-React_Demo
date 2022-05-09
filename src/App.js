@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Todo from './Todo';
-import './App.css'
+import './App.css';
+import UserList from "./UserList.jsx";
 
 let todoCounter = 1;
 
@@ -70,6 +71,7 @@ class App extends Component {
             </div>
           </div>
         </form>
+        <UserList></UserList>
         <div className="row todo-list">
           <div className="col-md-6">
             <h3>Lists</h3>
